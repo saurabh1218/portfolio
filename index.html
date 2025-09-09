@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>CyberSec Portfolio | Saurabh Yadav</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body class="bg-black text-gray-200 font-sans">
+
+<!-- Navigation -->
+<nav class="bg-black shadow-md fixed w-full z-50">
+  <div class="container mx-auto px-4 py-3">
+    <div class="flex justify-between items-center">
+ <!-- Left: Brand Name -->
+      <a href="#" class="text-2xl font-bold">
+        <span class="text-white">Portfolio</span> <span class="text-red-500">Student</span>
+      </a>
+ <!-- Mobile Menu Button -->
+      <div class="md:hidden">
+        <button id="mobile-menu-button" class="text-white focus:outline-none">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+               xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+ <!-- Desktop Navigation -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#home" class="nav-link text-white hover:text-green-400 transition">Home</a>
+        <a href="#about" class="nav-link text-white hover:text-green-400 transition">About</a>
+        <a href="#projects" class="nav-link text-white hover:text-green-400 transition">Projects</a>
+        <a href="#skills" class="nav-link text-white hover:text-green-400 transition">Skills</a>
+        <a href="#certificates" class="nav-link text-white hover:text-green-400 transition">Certifications</a>
+        <a href="#Resume" class="nav-link text-white hover:text-green-400 transition">Resume</a>
+        <a href="#experience" class="nav-link text-white hover:text-green-400 transition">Experience</a>
+        <a href="#contact" class="nav-link text-white hover:text-green-400 transition">Contact</a>
+      </div>
+    </div>
+  </div>
+<!-- Mobile Navigation -->
+  <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-gray-700">
+    <div class="container mx-auto px-4 py-2 space-y-1">
+      <a href="#home" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">Home</a>
+      <a href="#about" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">About</a>
+      <a href="#projects" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">Projects</a>
+      <a href="#skills" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">Skills</a>
+      <a href="#certificates" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">Certifications</a>
+      <a href="#Resume" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">Resume</a>
+      <a href="#experience" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">Experience</a>
+      <a href="#contact" class="block py-2 px-4 text-white hover:bg-red-800 hover:text-white rounded transition">Contact</a>
+    </div>
+  </div>
+</nav>
+<!-- Hero Section with Cyber Animation -->
+<section id="home" class="min-h-screen pt-32 pb-20 text-white relative overflow-hidden">
+
+ <br>
+
+ <!-- Gradient Background -->
+  <div class="absolute inset-0 bg-gradient-to-r from-black via-gray-900 to-red-800 z-0"></div>
+  
+  <!-- Background Hacker PNG -->
+  <img src="Hacker-No-Background.png"
+     class="absolute opacity-10 right-4 md:right-10 bottom-0 w-[300px] md:w-[400px] lg:w-[500px] pointer-events-none select-none z-0"
+     style="filter: brightness(0) saturate(100%);" />
+
+  <!-- Cyber Scanline Overlay -->
+  <div class="absolute inset-0 z-10 pointer-events-none opacity-10"
+       style="background-image: repeating-linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 3px); animation: flicker 2s infinite ease-in-out;">
+  </div>
+
+  <!-- Main Content -->
+  <div class="relative z-20 container mx-auto px-4 pt-12">
+    <div class="flex flex-col md:flex-row items-center">
+
+      <!-- Left Content -->
+      <div class="md:w-1/2">
+       <h1 class="text-4xl md:text-5xl font-bold mb-4">
+  Hello, I'm 
+<span class="slide-blur-in text-red-600">Saurabh Yadav</span>
+
+
+</h1>
+ <h2 class="text-2xl md:text-3xl mb-6">
+  <span class="typewriter-text text-white-500 font-mono">Cyber Security & Java Developer Student </span>
+</h2>
+
+
+
+        
+        <!-- Terminal Section -->
+        <div class="mb-8">
+          <div class="terminal-header flex items-center">
+            <div class="flex space-x-2">
+              <div class="w-5 h-5 rounded-full bg-red-500"></div>
+              <div class="w-5 h-5 rounded-full bg-yellow-500"></div>
+              <div class="w-5 h-5 rounded-full bg-green-500"></div>
+            </div>
+            <div class="ml-4 text-xs text-gray-400">terminal@saurabhyadav:~</div>
+          </div>
+          <div class="terminal-body">
+            <div id="typed-text">
+              <span class="text-purple-400">$</span> whoami<br>
+              <span class="text-green-400">Currently persuing Bachelors of Computer Application From Quantum University.</span><br>
+              <span class="text-purple-400">$</span> skills<br>
+              <span class="text-green-400">[ " Currently gain knowledge in Java , Python,SQL Database,Operating System,Cyber Security  " ]</span><br>
+              <span class="text-purple-400">$</span> _<span class="typed-cursor">|</span>
+            </div>
+          </div>
+        </div>
+       <br>
+ <!-- Buttons -->
+        <div class="flex space-x-4">
+          <a href="#certificates" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition">View Certificate </a>
+          <a href="#contact" class="border border-white hover:bg-white hover:text-gray-900 text-white px-6 py-3 rounded-lg font-medium transition">Contact Me</a>
+          
+        </div>
+      </div>
+
+
+
+ <!-- Right: Image with glow + zoom -->
+      <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+        <div class="relative w-fit">
+          <img id="dp-image-hover" src="DP.jpg" alt="Cybersecurity Professional"
+               class="rounded-full w-80 h-80 border-4 border-red-600 shadow-xl transition-transform duration-500 transform hover:scale-110 hover:shadow-red-600">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="min-h-screen py-16 bg-gradient-to-r from-black via-gray-900 to-red-800 text-white flex items-center">
+  <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+    
+    <!-- Image Left -->
+    <div class="md:w-1/3 flex justify-center md:justify-start slide-left">
+      <img src="DP2.jpg" alt="Saurabh Yadav" class="rounded-lg shadow-md w-70 h-70 object-cover">
+    </div>
+    
+    <!-- Text Right -->
+    <div class="md:w-2/3 text-left space-y-6 slide-right">
+      <h1 class="text-3xl font-bold text-green-400">About Me</h1>
+      <p class="text-gray-300 leading-relaxed">
+        I'm currently a Second-year B.C.A student . From the very beginning of my academic journey, I’ve been deeply interested in understanding how digital systems work — and more importantly, how to protect them.
+      </p>
+      <p class="text-gray-300 leading-relaxed">
+        I’ve started learning the fundamentals of,Java programming ,Python,Android Developing, ethical hacking, network security, and Linux systems, and have already begun applying this knowledge through hands-on practice, online courses, and small projects.
+      </p>
+      <p class="text-gray-300 leading-relaxed">
+        My goal is to build a strong foundation in Android Developing ,cybersecurity, continuously improve through challenges like CTFs and internships, and grow into a professional who can make the digital world more secure.
+      </p>
+      
+      <div class="flex flex-wrap gap-3">
+        <span class="bg-green-800 px-4 py-2 rounded-full text-sm font-medium">Saurabh Yadav</span>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+   
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-4xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold text-cyan-400 mb-6">Skills</h2>
+    <ul class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <li class="bg-gray-800 p-4 rounded-xl shadow-lg hover:shadow-cyan-400 transition">Cybersecurity Fundamentals</li>
+      <li class="bg-gray-800 p-4 rounded-xl shadow-lg hover:shadow-cyan-400 transition">Python Programming</li>
+      <li class="bg-gray-800 p-4 rounded-xl shadow-lg hover:shadow-cyan-400 transition">HTML, CSS, JavaScript,Java ,SQL</li>
+      <li class="bg-gray-800 p-4 rounded-xl shadow-lg hover:shadow-cyan-400 transition">Problem Solving</li>
+       <li class="bg-gray-800 p-4 rounded-xl shadow-lg hover:shadow-cyan-400 transition">MS Excel</li>
+        <li class="bg-gray-800 p-4 rounded-xl shadow-lg hover:shadow-cyan-400 transition">Linux</li>
+          <li class="bg-gray-800 p-4 rounded-xl shadow-lg hover:shadow-cyan-400 transition">D.S.A in Java</li>
+
+
+    </ul>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="max-w-6xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold text-cyan-400 mb-10 text-center">Certificates</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transform transition duration-300">
+        <img src="cert1.jpg" alt="Certificate 1" class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transform transition duration-300">
+        <img src="cert2.jpg" alt="Certificate 2" class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transform transition duration-300">
+        <img src="cert3.jpg" alt="Certificate 3" class="w-full h-48 object-cover">
+      </div>
+      <div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:scale-105 transform transition duration-300">
+        <img src="cert4.jpg" alt="Certificate 4" class="w-full h-48 object-cover">
+      </div>
+    </div>
+  </section>
+
+
+<!-- Experience Section -->
+<section id="experience" class="py-16 bg-gradient-to-r from-black via-gray-900 to-red-800 text-white">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-10 text-green-400">Experience</h2>
+    <p class="text-center text-gray-300 mb-12 max-w-3xl mx-auto">
+      Here's a glimpse of my hands-on industry experience through internships and independent work.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+      <!-- Experience Card 1 -->
+      <div class="project-card bg-gray-900 rounded-2xl overflow-hidden slide-left">
+        <img src="data.jpeg" alt="Data Science Internship in Global Servicex" class="w-full h-48 object-cover">
+        <div class="p-6 space-y-3">
+          <h3 class="text-xl font-bold text-red-400">Data Science internship </h3>
+          <p class="text-gray-300">1 july 2025 – 31 july 2025</p>
+          <p class="text-gray-400 text-sm">
+            Worked on Data 
+          </p>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span class="bg-green-800 text-white text-xs px-3 py-1 rounded-full">Nmap</span>
+            <span class="bg-yellow-800 text-white text-xs px-3 py-1 rounded-full">Burp Suite</span>
+            <span class="bg-purple-800 text-white text-xs px-3 py-1 rounded-full">Linux</span>
+          </div>
+  </div>
+      </div>
+
+    </div>
+  </div>
+
+    <center>
+  <p class="text-center text-white-400 mt-10 text-sm italic">Let's connect — more hands-on experiences are on the way!</p>
+</center>
+
+
+
+   <!-- Contact Section -->
+<section id="contact" class="py-16 bg-gradient-to-r from-black via-gray-900 to-red-800 text-white ">
+<div class="container mx-auto px-4 text-center">
+  <h2 class="text-3xl font-bold text-green-400 mb-10">Contact Me</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+    <!-- Email -->
+    <a href="mailto:saurabh1218yadav@gmail.com" target="_blank" class="bg-gray-900 bg-opacity-70 rounded-xl p-6 shadow-lg hover:shadow-red-600 transition duration-300 flex flex-col items-center  slide-left">
+      <i class="fas fa-envelope text-red-500 text-4xl mb-4"></i>
+      <h3 class="text-lg font-semibold mb-2">Email</h3>
+      <p class="text-gray-300 break-words">saurabh1218yadav@gmail.com</p>
+    </a>
+
+    <!-- Phone -->
+    <a href="tel:+918009212118" class="bg-gray-900 bg-opacity-70 rounded-xl p-6 shadow-lg hover:shadow-red-600 transition duration-300 flex flex-col items-center slide-left">
+      <i class="fas fa-phone-alt text-red-500 text-4xl mb-4"></i>
+      <h3 class="text-lg font-semibold mb-2">Phone</h3>
+      <p class="text-gray-300">+91-8009212118</p>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/saurabh-yadav-6870a8259" target="_blank" class="bg-gray-900 bg-opacity-70 rounded-xl p-6 shadow-lg hover:shadow-red-600 transition duration-300 flex flex-col items-center slide-left">
+      <i class="fab fa-linkedin text-red-500 text-4xl mb-4"></i>
+      <h3 class="text-lg font-semibold mb-2">LinkedIn</h3>
+      <p class="text-gray-300 break-words">saurabh-yadav-6870a8259</p>
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com" target="_blank" class="bg-gray-900 bg-opacity-70 rounded-xl p-6 shadow-lg hover:shadow-red-600 transition duration-300 flex flex-col items-center slide-left">
+      <i class="fab fa-github text-red-500 text-4xl mb-4"></i>
+      <h3 class="text-lg font-semibold mb-2">GitHub</h3>
+      <p class="text-gray-300 break-all">Saurabh1218</p>
+    </a>
+  </div>
+
+
+ <p class="text-gray-400 text-sm mt-12">&copy; 2025 <span class="text-green-400 font-semibold">Saurabh Yadav</span>. All rights reserved.</p>
+</div>
+</section>
+</body>
+  <script>
+  const revealElements = document.querySelectorAll('.reveal');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  revealElements.forEach(el => observer.observe(el));
+ // About Section Slide-in Animation//
+  document.addEventListener('DOMContentLoaded', function () {
+  const slideEls = document.querySelectorAll('.slide-left, .slide-right');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  slideEls.forEach(el => observer.observe(el));
+});
+
+  </script>
+</html>
+
+   
